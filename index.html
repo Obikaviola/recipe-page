@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Recipe page</title>
@@ -19,9 +23,9 @@
     </div>
   </header>
 
-  <main>
+  <main class=".outfit-regular">
     <section class="header__content">
-      <h1 class="header__content--heading">Simple Omelette Recipe</h1>
+      <h1 class="header__content--heading young-serif-regular">Simple Omelette Recipe</h1>
       <p class="header__content--text">
         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
@@ -38,7 +42,7 @@
     </section>
 
     <section class="ingredients">
-      <h2>Ingredients</h2>
+      <h2 class="young-serif-regular">Ingredients</h2>
       <ul class="ingredient__list">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
@@ -51,7 +55,7 @@
     <hr>
     
     <section class="instructions">
-      <h2>Instructions</h2>
+      <h2 class="young-serif-regular">Instructions</h2>
       <ol class="instructions__list">
         <li><span class="instructions__list--heading">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
         <li><span class="instructions__list--heading">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -68,7 +72,7 @@
     <hr>
 
     <section class="nutrition">
-      <h2>Nutrition</h2>
+      <h2 class="young-serif-regular">Nutrition</h2>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
       <table class="nutritional__content">
         <tbody>
@@ -97,9 +101,11 @@
     </section>
   </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
-    Coded by <a href="#">Onyinyechi Viola Obika</a>.
-  </div>
+  <footer class="outfit-regular">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="https://x.com/obika_viola">Onyinyechi Viola Obika</a>.
+    </div>
+  </footer>
 </body>
 </html>
