@@ -70,12 +70,13 @@ body {
     color: var(--paragraph-text-color);
     line-height: 1.5;
     font-family: 'outfit';
+    background-color: #fff;
 }
 
 main {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding-bottom: 2em;    
 }
 
 .header__content {
@@ -106,14 +107,15 @@ h2 {
     padding: 1.5em 2em;
 }
 
-.prep__list {
+.prep__list
+ {
     padding-left: 1.5em;
 }
 
-h3 {
+.prep h2 {
     color: var(--prep-heading-color);
     font-family: 'outfit';
-    padding: 0 0 0.5em 0;
+    padding-top: 0;
 }
 
 .prep__list--head, .instructions__list--heading {
@@ -149,7 +151,7 @@ hr {
     color: var(--border-bottom);
 }
 
-.nutrition>p {
+.nutrition p {
     padding: 1em 0;
 }
 
@@ -173,10 +175,15 @@ td:nth-child(2) {
     padding-right: 2em;
 }
 
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
 .attribution { 
     font-size: 1rem; 
-    text-align: center; 
-    padding: 2em 0;
+    text-align: center;
 }
     
 .attribution a { 
@@ -184,10 +191,26 @@ td:nth-child(2) {
 }
 
 @media (min-width: 600px){
-    header {
+
+    body{
         width: 80%;
         margin: 0 auto;
-        padding-top: 2em;
+        background-color: var(--prep-background);
+        padding: 3em;
+    }
+
+    main{
+        background-color: #fff;
+        padding: 0 3em 2em 3em;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    header {
+        padding: 3em;
+        padding-bottom: 0;
+        background-color: #fff;
+        border-radius: 20px 20px 0 0;
     }
 
     img {
